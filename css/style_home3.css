@@ -1,0 +1,21 @@
+.home3 header {
+	background:rgba(0,0,0,0);
+	position:fixed;
+}		
+
+.home3 .footer {
+	background:rgba(0,0,0,0);
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+@media (max-width: 480px) {
+.social_icon {
+    float: none !important;
+    text-align: center;
+}
+.copyright-part {
+    float: none !important;
+}
+
+}	

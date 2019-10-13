@@ -1,0 +1,24 @@
+
+.home4 .header {
+    margin: 0 50px;
+}
+.home4 #content {
+    margin: 50px;
+}
+
+.home4 #menu {
+	margin: 0; 
+}
+.home4 .about-heading{
+	font-size:30px;
+}
+.home4 .navbar-right{
+	margin-right:0;
+}
+
+@media (min-width:991px) {
+.home4 .search-box {
+	margin:0 ; 
+}
+
+}

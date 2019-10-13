@@ -1,0 +1,11 @@
+.home5 header {
+	background:rgba(0,0,0,0);
+	position:fixed;
+}		
+
+.home5 .footer {
+	background:rgba(0,0,0,0);
+	position:fixed;
+	bottom:0;
+	width:100%;
+}	

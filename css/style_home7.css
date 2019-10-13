@@ -1,0 +1,47 @@
+.home7 .navbar-header{
+	text-align: center;
+	z-index: 1;
+}
+
+.home7 #menu {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    text-align: left;
+}
+.home7 .search-box {
+	margin:0 ; 
+}
+
+.home7 .main-search {
+    display: inline-block;
+}
+.home7 #navbarCollapse{
+	width:100%;
+	text-align: center;
+}
+.navbar-header{float:none;}
+.home7 .banner{position: relative;}
+.home7 .container .banner{margin-top:212px;}
+
+@media (max-width:991px) {
+.home7 .navbar-header{
+	margin-bottom:20px;}
+.home7 .container .banner{
+	margin-top:140px;
+}
+.home7 #navbarCollapse{
+	text-align: left;
+}
+.home7 .header{
+	position:relative;
+}
+.home7 #navbarCollapse{
+	position:absolute;
+	top:20px;
+}
+.home7 .search-box{
+	right:20px;
+}
+
+}

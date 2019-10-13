@@ -1,0 +1,39 @@
+.home6 .header {
+    margin: 0 50px;
+}
+.home6 #content {
+    margin: 50px;
+}
+.home6 #menu {
+	margin: 0; 
+}
+.home6 .about-heading{
+	font-size:30px;
+}
+.home6 .client .owl-nav .owl-next {
+	cursor: url(../images/right_arrow_white.png), auto !important;
+}
+.home6 .client .owl-nav .owl-prev {
+	cursor: url(../images/left_arrow_white.png), auto !important;
+}
+.home6 .navbar-right{
+	margin-right:0;
+}
+@media (min-width:991px) {
+.home6 .search-box {
+	margin:0 ; 
+}
+
+}
+@media (max-width:480px) {
+.home6 .footer input{
+	width: 180px
+}
+}
+@media (max-width:360px) {
+.home6 .header {
+    margin: 0 30px;
+}
+
+
+}
