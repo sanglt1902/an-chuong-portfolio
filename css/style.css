@@ -11,17 +11,17 @@
 /*
 
 ===== BASIC STYLE =====
-  + General 
-  + Typography   
-  + Spacing    
+  + General
+  + Typography
+  + Spacing
   + Button
   + Elements
   + Accordions
   + Tabs
   + Input
-         
-      
-===== HEADER ===== 
+
+
+===== HEADER =====
   + Header
   + Navbar
 
@@ -36,7 +36,7 @@
   + pricing
   + Contact Us
   + Shop
-  
+
 
 ===== FOOTER =====
 
@@ -476,7 +476,7 @@ h6 {
 	padding:10px 15px;
 }
 .alert-dismissable .close, .alert-dismissible .close{
-	top:0;	
+	top:0;
 	right:0;
 }
 /* =====  Icon  =====*/
@@ -961,7 +961,7 @@ header {
 	font-weight: 200;
 	text-transform: uppercase;
 }
-}
+
 }
 @media only screen and (min-width: 480px) {
 .cd-headline {
@@ -1546,7 +1546,7 @@ sub {
     display: block;
     min-width: 300px;
     max-height: 290px;
-    overflow-y: auto; 
+    overflow-y: auto;
 }
 .sc-toolbar {
     display: none;
@@ -1555,7 +1555,7 @@ sub {
     display: block;
 }
 #smartcart.panel{
-	border-radius: 0px!important; 
+	border-radius: 0px!important;
 }
 a.thumbnails {
 	border: 1px solid #ddd;
@@ -1812,7 +1812,7 @@ select {
 }
 /* =====  FOOTER CSS START=====*/
 
- 
+
 .footer {
 	background: #1a1a1a;
 	text-align: center;
@@ -1876,11 +1876,11 @@ select {
 }
 
 /* =====  FOOTER CSS END=====*/
- 
- 
- 
- 
-/* =====  RESPONSIVE CSS START  =====*/ 
+
+
+
+
+/* =====  RESPONSIVE CSS START  =====*/
 
 @media (min-width: 1200px) {
 .container {
@@ -1911,18 +1911,18 @@ select {
 	width: 50%;
 }
 .client .owl-nav{
-	display:none;	
+	display:none;
 	}
 }
 .about-text{
 	margin: 0;
 }
 /*-----------------------------------*/
-	
+
 @media (min-width: 768px) and (max-width: 991px) {
 }
 /*-----------------------------------*/
-	
+
 @media (max-width: 767px) {
 .portfolio-filter.nav.navbar-nav {
 	display: inline;
