@@ -224,14 +224,20 @@
   filter: grayscale(100%);
 }
 .timeline-1 {
-  background-image: url(/images/rai07303.jpg);
+  background-image: url("../images/rai07303.jpg");
 }
 .timeline-2 {
-  background-image: url(/images/rai06609.jpg);
+  background-image: url("../images/rai06609.jpg");
 }
 .timeline-3 {
-  background-image: url(/images/01banner.jpg);
+  background-image: url("../images/01banner.jpg");
 }
 .timeline-4 {
-  background-image: url(/images/dji_0090.jpg);
+  background-image: url("../images/dji_0090.jpg");
+}
+
+.br_audi {
+  background-image: url("../images/02banner.jpg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
 }

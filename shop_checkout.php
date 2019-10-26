@@ -49,26 +49,26 @@ if($product_list_array) {
         }
         $result_html .= '------------------------------------------<br />';
     }
-} else {    
+} else {
     $result_html .= "<strong>Cart is Empty</strong>";
 }
-?> 
+?>
 <!-- =====  LODER  ===== -->
 <div class="loder"></div>
-<div class="wrapper"> 
+<div class="wrapper">
   <!-- =====  HEADER START  ===== -->
   <header id="header">
-    
-      <div class="header navbar"> 
+
+      <div class="header navbar">
         <div class="container"><!-- Brand and toggle get grouped for better mobile display -->
-        
+
         <div class="navbar-header pull-left" > <a class="navbar-brand" href="index.html"> <img alt="Gaan.do" src="images/logo.png"> </a> </div>
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="navbar-collapse navbar-right">
-          <nav id="menu" class='collapse pull-left'> 
+          <nav id="menu" class='collapse pull-left'>
             <!-- Navigation Menu -->
             <ul>
-              <li> <a>Home</a> 
+              <li> <a>Home</a>
                 <!-- Nav Dropdown -->
                 <ul class="nav-dropdown-level-1">
                   <li class="nav-has-sub"> <a href='#'>One page</a>
@@ -106,9 +106,9 @@ if($product_list_array) {
                     </ul>
                   </li>
                 </ul>
-                <!-- End Nav Dropdown --> 
+                <!-- End Nav Dropdown -->
               </li>
-              <li> <a>Portfolio</a> 
+              <li> <a>Portfolio</a>
                 <!-- Nav Dropdown -->
                 <ul class="nav-dropdown-level-1">
                   <li class="nav-has-sub"> <a href='#'>Grid</a>
@@ -132,9 +132,9 @@ if($product_list_array) {
                     </ul>
                   </li>
                 </ul>
-                <!-- End Nav Dropdown --> 
+                <!-- End Nav Dropdown -->
               </li>
-              <li> <a href="#">Blog</a> 
+              <li> <a href="#">Blog</a>
                 <!-- Nav Dropdown -->
                 <ul class="nav-dropdown-level-1">
                   <li class="nav-has-sub"> <a href='#'>Grid</a>
@@ -159,7 +159,7 @@ if($product_list_array) {
                     </ul>
                   </li>
                 </ul>
-                <!-- End Nav Dropdown --> 
+                <!-- End Nav Dropdown -->
               </li>
               <li> <a href="#">Shop</a>
                 <ul class="nav-dropdown-level-1">
@@ -201,8 +201,8 @@ if($product_list_array) {
               </li>
               <li> <a href="about.html">About Us</a> </li>
             </ul>
-            <!--End Navigation Menu -->  
-            
+            <!--End Navigation Menu -->
+
           </nav>
           <div class="main-search pull-right"   >
             <div class="header-search">
@@ -215,8 +215,8 @@ if($product_list_array) {
             </div>
           </div>
           <div class="smart-cart-icon"> <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
-          <aside class="smartcart"> 
-            
+          <aside class="smartcart">
+
             <!-- Cart submit form -->
             <form action="shop_checkout.php" method="POST">
               <!-- SmartCart element -->
@@ -227,7 +227,7 @@ if($product_list_array) {
       </div>
     </div>
   </header>
-  <!-- =====  HEADER END  ===== --> 
+  <!-- =====  HEADER END  ===== -->
   <!-- =====  BREADCRUMB STRAT  ===== -->
   <div class="breadcrumb ptb_80 mt_80 mb_0">
     <h1 class="mb_20">Shop</h1>
@@ -237,10 +237,10 @@ if($product_list_array) {
       <li class="active">Cart</li>
     </ul>
   </div>
-  <!-- =====  BREADCRUMB END===== --> 
-  
+  <!-- =====  BREADCRUMB END===== -->
+
   <!-- =====  CONTAINER START  ===== -->
-  
+
   <section id="result">
       <div class="container">
             <div class="row">
@@ -266,9 +266,9 @@ if($product_list_array) {
         </div>
   </section>
 
-  
-  <!-- =====  CONTAINER END  ===== --> 
-  
+
+  <!-- =====  CONTAINER END  ===== -->
+
   <!-- =====  FOOTER START  ===== -->
   <div class="footer ptb_100">
     <div class="container">
@@ -278,7 +278,7 @@ if($product_list_array) {
             <ul>
               <li>B-14 Collins Street West Victoria 2386 lorems colerfes state</li>
               <li>(+123) 456 789 - (+024) 666 888</li>
-              <li>Contact@yourcompany.com</li>
+              <li>moment@freebird.vn</li>
             </ul>
         </div>
         <div class="col-md-6">
@@ -315,23 +315,23 @@ if($product_list_array) {
       </div>
     </div>
   </div>
-  
-  <!-- =====  FOOTER END  ===== --> 
+
+  <!-- =====  FOOTER END  ===== -->
 </div>
-<script src="js/jQuery_v3.1.1.min.js"></script> 
-<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jQuery_v3.1.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.magnific-popup.js"></script>
-<script src="js/isotope.pkgd.min.js"></script> 
-<script src="js/letters-type.js"></script> 
-<script src="js/menu.js"></script> 
-<script src="js/custom.js"></script> 
-<script src="js/jquery.smartCart.js"></script> 
-<script src="js/wow.js"></script>  
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/letters-type.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery.smartCart.js"></script>
+<script src="js/wow.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
-          // Initialize Smart Cart      
+          // Initialize Smart Cart
     $('#smartcart').smartCart();
   });
 </script>
