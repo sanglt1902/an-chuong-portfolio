@@ -117,7 +117,7 @@
   min-height: 400px;
   color: #fff;
   overflow: hidden;
-  transition: width 0.5s ease;
+  transition: width 0.1s ease;
 }
 .tl-item:before,
 .tl-item:after {
@@ -178,7 +178,7 @@
   position: relative;
   z-index: 1;
   text-align: center;
-  margin: 0 1.618em;
+  margin: 0 10px;
   top: 55%;
   opacity: 0;
 }
@@ -222,4 +222,16 @@
   transition: filter 0.5s ease, -webkit-filter 0.5s ease;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+.timeline-1 {
+  background-image: url(/images/RAI07303.jpg);
+}
+.timeline-2 {
+  background-image: url(/images/RAI06609.jpg);
+}
+.timeline-3 {
+  background-image: url(/images/01banner.jpg);
+}
+.timeline-4 {
+  background-image: url(/images/DJI_0090.jpg);
 }
