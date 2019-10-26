@@ -41,7 +41,7 @@ $(function() {
     /* ----- filter Start  ------ */
     if ($(window).width() <= 991) {
       $('.nav li').on('click', function () {
-      $('.#menu ul').css({"display":"none"});
+      $('#menu ul').css({"display":"none"});
       });
       $('#menu.collapse ').removeClass('pull-left');
       /* ------------bannre button margin ------------- */
