@@ -860,8 +860,9 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 0;
-	background: rgba(0,0,0,0) url("../images/banner2.jpg") no-repeat center center;
+	background: rgba(0,0,0,0) url("../images/01banner.jpg") no-repeat center center;
 	background-size: cover;
+	-webkit-overflow-scrolling:touch; overflow:auto;
 }
 /* ===== Full Video banner ===== */
 .large-header, .banner2 {
@@ -1141,7 +1142,7 @@ header {
 	width: 50%;
 	min-height: 1px;
 }
-.three-col-blog, .two-col-blog, .four-col-work, .three-col-work, .two-col-work {
+.three-col-blog, .two-col-blog, .four-col-work, .three-col-work, .two-col-work .five{
 	display: inline-block;
 }
 .grid .two-col-work .grid-item, .grid .three-col-work .grid-item, .grid .four-col-work .grid-item {

@@ -1,9 +1,25 @@
 $(function() {
   "use strict";
 
-  function Isotope_filter() {
+  function Isotope_filter1() {
     /* ----- filter Start  ------ */
-    var $container = $('.isotope').isotope({
+    let $container = $('.isotope.five-col-work').isotope({
+      itemSelector: '.grid-item ,.blog-item',
+      getSortData: {}
+    });
+    /* ----- filter End  ------ */
+    $('.custom-filter').on('click', 'li a', function(e) {
+      $(this).parent().addClass('active').siblings().removeClass('active');
+      var filterValue = $(this).attr('data-filter');
+      // use filterFn if matches value
+      $container.isotope({
+        filter: filterValue
+      });
+    });
+  }
+  function Isotope_filter2() {
+    /* ----- filter Start  ------ */
+    let $container = $('.isotope.three-col-work').isotope({
       itemSelector: '.grid-item ,.blog-item',
       getSortData: {}
     });
@@ -330,7 +346,8 @@ $(function() {
 }
     $( window ).on("load", function() {
         $(".loder").fadeOut("slow");
-        Isotope_filter();
+        Isotope_filter1();
+        Isotope_filter2();
         re_size();
         glactive();
         bannerheight ();
@@ -347,7 +364,8 @@ $(function() {
         re_size();
         smartcart();
         wowanimations ();
-        Isotope_filter();
+        Isotope_filter1();
+        Isotope_filter2();
   });
   $( window ).on("resize", function() {
     re_size();
