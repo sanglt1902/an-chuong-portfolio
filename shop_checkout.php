@@ -5,7 +5,7 @@
 <head>
 <!-- =====  BASIC PAGE NEEDS  ===== -->
 <meta charset="utf-8">
-<title>Gaan.do</title>
+<title>AnChuongMedia</title>
 <!-- =====  SEO MATE  ===== -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="">
@@ -62,7 +62,7 @@ if($product_list_array) {
       <div class="header navbar">
         <div class="container"><!-- Brand and toggle get grouped for better mobile display -->
 
-        <div class="navbar-header pull-left" > <a class="navbar-brand" href="index.html"> <img alt="Gaan.do" src="images/logo.png"> </a> </div>
+        <div class="navbar-header pull-left" > <a class="navbar-brand" href="index.html"> <img alt="AnChuongMedia" src="images/logo.png"> </a> </div>
         <!-- Collection of nav links, forms, and other content for toggling -->
         <div id="navbarCollapse" class="navbar-collapse navbar-right">
           <nav id="menu" class='collapse pull-left'>
@@ -282,7 +282,7 @@ if($product_list_array) {
             </ul>
         </div>
         <div class="col-md-6">
-          <div class="footer-logo mb_40"> <a href="index.html"> <img src="images/footer-logo.png" alt="Gaan.do"> </a> </div>
+          <div class="footer-logo mb_40"> <a href="index.html"> <img src="images/footer-logo.png" alt="AnChuongMedia"> </a> </div>
           <div class="footer-link">
             <ul>
               <li><a href="index.html">Home </a></li>
@@ -294,7 +294,7 @@ if($product_list_array) {
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
-          <div class="copyright-part mtb_10">@ 2017 All Rights Reserved Gaan.do</div>
+          <div class="copyright-part mtb_10">@ 2017 All Rights Reserved AnChuongMedia</div>
           <div class="social_icon">
             <ul>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
