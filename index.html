@@ -222,7 +222,7 @@
             <div class="isotope three-col-work ">
               <div class="grid-item listing-effect" :class= "item.type"  v-for="(item, index) in imageCollection">
                 <a :href="item.url">
-                  <img :src="item.url" alt="AnChuongMedia">
+                  <img :src=`${item.url}&width=500&height=300` alt="AnChuongMedia">
                   <div class="work-detail">
                     <h3 class="project-title mb_10"></h3>
                     <div class="meta-title">Photography</div>
