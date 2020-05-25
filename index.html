@@ -34,12 +34,14 @@
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
 <body id="home" class="home2">
+
   <!-- =====  LODER  ===== -->
   <div class="loder" style="display: none;"></div>
-  <div class="wrapper">
+  <div class="wrapper" id="app">
     <!-- =====  HEADER START  ===== -->
     <header id="header">
       <div class="container-fluid">
@@ -91,7 +93,8 @@
               <div class="col-md-7">
                 <div class="about-text">
                   <div class="about-heading-wrap">
-                    <h2 class="about-heading mb_40 ptb_20 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Design is Best<br>
+                    <h2 class="about-heading mb_40 ptb_20 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Design is
+                      Best<br>
                       Part of <span>my Life </span></h2>
                   </div>
                   <p class=" wow fadeInUp" data-wow-delay=".3s">There are many variations of passages of Lorem Ipsum
@@ -125,7 +128,8 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-12">
               <div class="story_detail">
-                <h2 class="main_title mb_10 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Design is Best Part of my Life
+                <h2 class="main_title mb_10 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Design is Best Part of my
+                  Life
                 </h2>
                 <p class=" wow fadeInUp" data-wow-delay=".3s">A wonderful serenity has taken possession of my entire
                   soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the
@@ -208,74 +212,19 @@
           <div class="tab-bar mb_30">
             <ul class="portfolio-filter nav navbar-nav wow fadeInUp" data-wow-delay=".3s">
               <li class="active"><a data-filter="*">All</a></li>
-              <li><a data-filter=".type1">Illustration</a></li>
-              <li><a data-filter=".type2">Vector Design</a></li>
-              <li><a data-filter=".type3">Photography</a></li>
-              <li><a data-filter=".type4">Web Design</a></li>
+              <li><a data-filter=".type1">Audi</a></li>
+              <li><a data-filter=".type2">Trung Nguyên</a></li>
+              <li><a data-filter=".type3">Mitsu</a></li>
+              <li><a data-filter=".type4">Mercedes</a></li>
             </ul>
           </div>
           <div class="grid wow fadeInUp" data-wow-delay=".4s">
             <div class="isotope three-col-work ">
-              <div class="grid-item listing-effect type1 type4"> <a href="images/pf1.jpg" title="Portfolio Title -1">
-                  <img src="images/pf1.jpg" alt="AnChuongMedia">
+              <div class="grid-item listing-effect" :class= "item.type"  v-for="(item, index) in imageCollection">
+                <a :href="item.url">
+                  <img :src="item.url" alt="AnChuongMedia">
                   <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -1</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type2 type3"> <a href="images/pf2.jpg" title="Portfolio Title -2">
-                  <img src="images/pf2.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -2</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type1 type4"> <a href="images/pf3.jpg" title="Portfolio Title -3">
-                  <img src="images/pf3.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -3</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type2"> <a href="images/pf4.jpg" title="Portfolio Title -4">
-                  <img src="images/pf4.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -4</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type4 type2 type3"> <a href="images/pf5.jpg"
-                  title="Portfolio Title -5"> <img src="images/pf5.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -5</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type1 type2"> <a href="images/pf6.jpg" title="Portfolio Title -6">
-                  <img src="images/pf6.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -6</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type2"> <a href="images/pf7.jpg" title="Portfolio Title -7">
-                  <img src="images/pf7.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -7</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type4 type1 type3"> <a href="images/pf8.jpg"
-                  title="Portfolio Title -8"> <img src="images/pf8.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -8</h3>
-                    <div class="meta-title">Photography</div>
-                  </div>
-                </a> </div>
-              <div class="grid-item listing-effect type4"> <a href="images/pf9.jpg" title="Portfolio Title -9"> <img
-                    src="images/pf9.jpg" alt="AnChuongMedia">
-                  <div class="work-detail">
-                    <h3 class="project-title mb_10">Portfolio Title -9</h3>
+                    <h3 class="project-title mb_10"></h3>
                     <div class="meta-title">Photography</div>
                   </div>
                 </a>
@@ -578,7 +527,8 @@
             </ul>
           </div>
           <div class="col-md-6 wow fadeInUp" data-wow-delay=".4s">
-            <div class="footer-logo mb_40"> <a href="index.html"> <img src="images/footer-logo.png" alt="AnChuongMedia"> </a>
+            <div class="footer-logo mb_40"> <a href="index.html"> <img src="images/footer-logo.png" alt="AnChuongMedia">
+              </a>
             </div>
             <div class="footer-link">
               <ul>
@@ -625,10 +575,16 @@
   <script src="js/letters-type.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/custom.js"></script>
+  <script src="jsonData/imageUris.js"></script>
   <script>
     var myPlayer;
     jQuery(function () {
       myPlayer = jQuery(".player").YTPlayer();
+    });
+
+    var app = new Vue({
+      el: '#app',
+      data: imageCollection,
     });
   </script>
 
@@ -636,6 +592,7 @@
   <script src="js/circle-progress.js"></script>
   <script src="js/circle-examples.js"></script>
   <script src="js/jquery.easeScroll.js"></script>
+
   <!-- =====  SCRIPT END  ===== -->
 
 </body>
