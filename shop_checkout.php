@@ -278,7 +278,7 @@ if($product_list_array) {
             <ul>
               <li>B-14 Collins Street West Victoria 2386 lorems colerfes state</li>
               <li>(+123) 456 789 - (+024) 666 888</li>
-              <li>moment@freebird.vn</li>
+              <li>moment@AnChuongMedia.vn</li>
             </ul>
         </div>
         <div class="col-md-6">

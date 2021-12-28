@@ -47,8 +47,8 @@
       <div class="container-fluid">
         <div class="header">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header pull-left"> <a class="navbar-brand" href="index.html"> <img alt="AnChuongMedia"
-                src="images/logo2.png"> </a> </div>
+          <div class="navbar-header pull-left"> <a class="navbar-brand" href="index.html" style="display: flex; color: white; font-weight: bold;"> <img alt="AnChuongMedia" style="width:36px; height: 25px"
+                src="images/footer-logo.png">AnChuongMedia </a> </div>
           <!-- Collection of nav links, forms, and other content for toggling -->
           <div id="navbarCollapse" class="navbar-collapse navbar-right">
             <nav id="menu" class='collapse pull-left light'>
@@ -93,21 +93,12 @@
               <div class="col-md-7">
                 <div class="about-text">
                   <div class="about-heading-wrap">
-                    <h2 class="about-heading mb_40 ptb_20 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Design is
-                      Best<br>
-                      Part of <span>my Life </span></h2>
+                    <h2 class="about-heading mb_40 ptb_20 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia <br>
+                      <span>Better Experience.</span></h2>
                   </div>
-                  <p class=" wow fadeInUp" data-wow-delay=".3s">There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some form, by injected humour, or randomised
-                    words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                    you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem
-                    Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the
-                    first true generator on the Internet model.of text. All the Lorem Ipsum generators on the Internet
-                    tend to repeat predefined chunks as necessary, making this the first true generator the first true
-                    generator on the Internet. Always free from repetition, injected humour, or non-characteristic words
-                    etc.</p>
-                  <button type="button" class="btn btn-link-b mt_20 wow fadeInUp" data-wow-delay=".4s">VIEW
-                    PROTFOLIO</button>
+                  <p class=" wow fadeInUp" data-wow-delay=".3s">Life is all about experience, and why don't we capture the "dolce vita" life of the world by the highly aesthetic and sensational masterpiece of art for photos and videos. Even, they are the new sights, sounds, tastes and feelings, let's save to cherish them forever…
+People talk about perfect timing, but we think everything is perfect in its moment; and we just want to capture that.</p>
+
                 </div>
               </div>
               <div class="col-md-5 wow fadeInUp" data-wow-delay=".5s">
@@ -128,12 +119,9 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-12">
               <div class="story_detail">
-                <h2 class="main_title mb_10 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Design is Best Part of my
-                  Life
+                <h2 class="main_title mb_10 wow fadeInUp" data-wow-delay=".2s">AnChuongMedia Better Visualization.
                 </h2>
-                <p class=" wow fadeInUp" data-wow-delay=".3s">A wonderful serenity has taken possession of my entire
-                  soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the
-                  charm of existence in this spot.</p>
+                <p class=" wow fadeInUp" data-wow-delay=".3s">The whole team at An Chuong Media is dedicated to providing you and your company with the most impressive and comprehensive photos possible. We're the dedicated, passionate and experienced people in the industry and we'll always go the extra mile to delight your requirements.</p>
               </div>
             </div>
           </div>
@@ -222,7 +210,7 @@
             <div class="isotope three-col-work ">
               <div class="grid-item listing-effect" :class= "item.type"  v-for="(item, index) in imageCollection">
                 <a :href="item.url">
-                  <img :src=`${item.url}&width=500&height=300` alt="AnChuongMedia">
+                  <img :src=`${item.thumbnail}w500-h300` alt="AnChuongMedia">
                   <div class="work-detail">
                     <h3 class="project-title mb_10"></h3>
                     <div class="meta-title">Photography</div>
@@ -476,34 +464,11 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2 col-sm-12">
               <div class="client owl-carousel wow fadeInUp" data-wow-delay=".2s">
-                <div class="item client-detail"> <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  <h2 class="main_title mtb_30">simply of the printing and industry Lorem Ipsum has been</h2>
-                  <p>Lorem ipsum dolor sit amet, sea in odio erat, volumus oporteat his at, mei ocurreret vulputate ex.
-                    Clita prodesset Rem ipsum dolor sit amet, sea in odio erat, volumus oporteat his at, mei ocurreret
-                    vulputate ex.
-                    Clita prodesset oportere patrioque ne nec Duo cu partem omnesque..</p>
-                  <div class="client-title  mt_40"><strong class="dark">joseph Lui</strong> -
-                    <div class="client-designation">php Developer</div>
-                  </div>
-                </div>
-                <div class="item client-detail"> <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  <h2 class="main_title mtb_30">simply text of the and typesetting industry Lorem Ipsum has been</h2>
-                  <p>Ddolor sit amet, sea in odio erat, volumus oporteat his at, mei ocurreret vulputate ex.
-                    Clita prodesset Rem ipsum dolor sit amet, sea in odio erat, volumus oporteat his at, mei ocurreret
-                    vulputate ex.
-                    Clita prodesset oportere patrioque ne nec Duo cu partem omnesque..</p>
-                  <div class="client-title  mt_40"><strong class="dark">Mr.joseph Lui</strong> -
-                    <div class="client-designation">Developer</div>
-                  </div>
-                </div>
-                <div class="item client-detail"> <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  <h2 class="main_title mtb_30">dummy text of the printing and typesetting industry has been</h2>
-                  <p>Sorem ipsum dolor sit amet, sea in odio erat, volumus oporteat his at, mei ocurreret vulputate ex.
-                    Clita prodesset Rem ipsum dolor sit amet, sea in odio erat, volumus oporteat his at, mei ocurreret
-                    vulputate ex.
-                    Clita prodesset oportere patrioque ne nec Duo cu partem omnesque..</p>
-                  <div class="client-title mt_40"><strong class="dark">Lui joseph </strong>-
-                    <div class="client-designation">WordPress</div>
+                <div class="item client-detail"> <i class="fa fa-quote-left" aria-hidden="true"></i><p/>
+                  <h2 class="main_title mtb_30">Journey through a spectacular land</h2>
+                  <p>People talk about perfect timing, but we think everything is perfect in its moment; and we just want to capture that.</p>
+                  <div class="client-title  mt_40"><strong class="dark">Mr. Chuong</strong> -
+                    <div class="client-designation">CEO & Founder AnChuongMedia</div>
                   </div>
                 </div>
               </div>
@@ -519,11 +484,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 mtb_40 wow fadeInUp" data-wow-delay=".2s">
-            <h4 class="footer-title ptb_20 light uppr ">FreeBird</h4>
+            <h4 class="footer-title ptb_20 light uppr ">AnChuongMedia</h4>
             <ul>
               <li>Truong Sa street, Ho Chi Minh City</li>
               <li>(+123) 456 789 - (+024) 666 888</li>
-              <li>moment@freebird.vn</li>
+              <li>moment@anchuongmedia.vn</li>
             </ul>
           </div>
           <div class="col-md-6 wow fadeInUp" data-wow-delay=".4s">
@@ -540,7 +505,7 @@
                 <li> <a href="#contact">Contact</a></li>
               </ul>
             </div>
-            <div class="copyright-part mtb_10">@ 2019 All Rights Reserved FreeBird</div>
+            <div class="copyright-part mtb_10">@ 2019 All Rights Reserved AnChuongMedia</div>
             <div class="social_icon">
               <ul>
                 <li><a href="https://www.facebook.com/chuongzx"><i class="fa fa-facebook"></i></a></li>
